@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop Posters</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #8B4513, #D2691E);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .poster {
+            background: #fff8f0;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            padding: 30px;
+            max-width: 500px;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+        .poster img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #6F4E37;
+            margin: 15px 0 10px;
+        }
+        p {
+            color: #5c3d2e;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #6F4E37;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background: #4b3621;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="poster">
+    <img src="https://via.placeholder.com/500x250.png?text=Freshly+Brewed+Coffee" alt="Coffee Cup">
+    <h1>JavaBean Coffee House</h1>
+    <p>Freshly brewed coffee, cozy vibes, and your favorite treats. Order online or visit us today!</p>
+    <a href="#" class="btn">Order Now</a>
+</div>
+
+</body>
+</html>
+
